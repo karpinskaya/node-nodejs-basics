@@ -1,6 +1,6 @@
-import { rm } from "fs/promises";
-import ERROR from "../constants.js";
-import { getDirname } from "../utils.js";
+import { rm } from 'fs/promises';
+import ERROR from '../constants.js';
+import { getDirname } from '../utils.js';
 
 const remove = async () => {
     try {

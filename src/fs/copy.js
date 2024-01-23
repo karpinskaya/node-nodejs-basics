@@ -1,7 +1,7 @@
-import * as fs from "fs/promises";
-import path from "path";
-import ERROR from "../constants.js";
-import { getDirname } from "../utils.js";
+import * as fs from 'fs/promises';
+import path from 'path';
+import ERROR from '../constants.js';
+import { getDirname } from '../utils.js';
 
 const copy = async () => {
     try {

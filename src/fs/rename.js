@@ -1,6 +1,6 @@
-import { rename as renameFile } from "fs/promises";
-import ERROR from "../constants.js";
-import { getDirname } from "../utils.js";
+import { rename as renameFile } from 'fs/promises';
+import ERROR from '../constants.js';
+import { getDirname } from '../utils.js';
 
 const rename = async () => {
     try {

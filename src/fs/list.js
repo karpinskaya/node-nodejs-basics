@@ -1,6 +1,6 @@
-import { readdir } from "fs/promises";
-import ERROR from "../constants.js";
-import { getDirname } from "../utils.js";
+import { readdir } from 'fs/promises';
+import ERROR from '../constants.js';
+import { getDirname } from '../utils.js';
 
 const list = async () => {
     try {
