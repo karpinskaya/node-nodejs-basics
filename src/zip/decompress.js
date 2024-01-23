@@ -16,7 +16,7 @@ const decompress = async () => {
             fs.createWriteStream(dstPath)
         );
     } catch (e) {
-        throw e;
+        console.log(e);
     }
 };
 
